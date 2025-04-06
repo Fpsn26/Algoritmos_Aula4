@@ -22,7 +22,7 @@ public class Matriz {
     
         for (int L = 0; L < 5; L++) {
             for (int C = 0; C < 5; C++) {
-                if (L + C > 4 && n[L][C] % 2 != 0) { // abaixo da DS e ímpar
+                if (L + C > 4 && n[L][C] % 2 != 0) {
                     somaQuadrados += n[L][C] * n[L][C];
                 }
             }
